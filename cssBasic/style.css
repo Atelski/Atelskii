@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-section{
+    background-image: url('./images/object.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+    text-align: right;
+    padding: 20px 20px;
+    text-decoration: none;
+    justify-content: end;
+}
+
+.navbar img{
+    text-align: left;
+    padding: 30px 30px;
+    text-decoration: none;
+    justify-content:space-between;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+/*Cover Page scetion*/
+
+.cover-page {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cover-page h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom:5px;
+}
+
+.cover-page span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: white;
+}
+
+.cover-page button {
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: white;
+    background-color:#C271FF;
+    
+    box-shadow:2rem;
+    border: none;
+}
+
+
+.awardees {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin-top: 70px;
+}
+
+.awardees h3, p{
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pros{
+    margin-top: 20px;
+}
+
+.pros h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.pros span{
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.bruce img{
+    border-radius: 100%;
+}
+
+.reviews{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: #C271FF;
+        padding: 100px;
+        color: white;
+}
+
+.text{
+    padding-top: 16px;
+    justify-content: center;
+    padding-left: 48px;
+    text-align: left;
+}
+
+.text p{
+    text-align: left;
+}
+
+
+/* Tutorials Section*/
+.tutorial-section {
+    margin: 100px 0;
+}
+
+
+.tutorial-section h2{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0;
+}
+
+.tutorial-section span {
+    font-weight: bold;
+    color: #C271FF;
+    
+}
+
+.Diagonal, .Happy, .Natural, .Sad {
+    width: 230px;
+    margin: 30px;
+}
+
+.play {
+    position: relative;
+    top: 35%;
+    left: 45%;
+}
+
+
+.tutorial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tutorial h3 {
+    padding: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.tutorial p {
+    text-align: left;
+    color: #78797b;
+    font-size: 14px;
+    width: 242px;
+}
+
+.philip {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.philip h4 {
+    font-size: 14px;
+    color: #C271FF;
+    margin: 0 10px;
+}
+
+.philip img{
+    width: 8%;
+}
+
+.star-time {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.star-time p{
+    color:#C271FF;
+    text-align: right;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    color: #C271FF;
+    margin: 0 2px;
+}
+
+.fa-solid{
+    color: #C271FF;
+    margin: 0 2px;
+}
+
+
+/*Membership section*/
+
+.membership{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629;
+    padding: 50px 0;
+}
+
+.membership button {
+    background-color: #C271FF;
+    font-weight: bold;
+    display: block;
+    width: 210px;
+    height: 44px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+}
+
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.membership span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.free-membership {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px;
+}
+
+.category-a, .category-b, .category-c, .category-d {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 250px;
+}
+
+.free-membership h3 {
+    color: white;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.free-membership p {
+    color: white;
+    font-size: 15px;
+}
+
+/*Frequently asked sections*/
+
+.faq {
+    margin: 100px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-weight: 300;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.asked-questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.top, .bottom {
+    width:400px;
+    margin: 0 100px;
+}
+
+.asked-questions h3 {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.answers{
+    font-size: 14px;
+    color: #071629;
+    line-height: 24px;
+}
+
+
+/*Footer section*/
+
+.footer{
+    background-color: #071629;
+    height: 249px;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: white;
+    margin: 0 10px;
+}
+
+.footer p{
+    text-align: center;
+    color: rgb(113, 111, 111);
+    padding-bottom: 30px;
+}
